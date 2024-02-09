@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/', [ContactFormController::class, 'index']);
+Route::post('/contacts/confirm', [ContactFormController::class,'confirm']);
+Route::post('/contacts', [ContactFormController::class, 'store']);

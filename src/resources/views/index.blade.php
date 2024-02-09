@@ -9,7 +9,8 @@
     <div class="contact-form__heading">
         <h2>Contact</h2>
     </div>
-    <form class="form">
+    <form class="form" action="/contacts/confirm" method="post">
+        @csrf
         <div class="form__group">
             <div class="form__group-title">
                 <span class="form__label--item">お名前</span>
@@ -28,11 +29,11 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <input type="radio" name="sex" value="men" id="sexChoice1" />
+                    <input type="radio" name="sex" value="男性" id="sexChoice1" />
                     <label for="sexChoice1">男性</label>
-                    <input type="radio" name="sex" value="women" id="sexChoice2" />
+                    <input type="radio" name="sex" value="女性" id="sexChoice2" />
                     <label for="sexChoice2">女性</label>
-                    <input type="radio" name="sex" value="others" id="sexChoice3" />
+                    <input type="radio" name="sex" value="その他" id="sexChoice3" />
                     <label for="sexChoice3">その他</label> 
                 </div>
                 <div class="form__error"></div>
