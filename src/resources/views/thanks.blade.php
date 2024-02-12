@@ -9,5 +9,9 @@
     <div class="thanks__heading">
         <h2>お問い合わせありがとうございました</h2>
     </div>
+    <form action="/" class="home__button" method="post">
+        @csrf
+        <button class="go-home" style="submit">HOME</button>
+    </form> 
 </div>
 @endsection
