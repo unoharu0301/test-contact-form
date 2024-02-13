@@ -14,12 +14,17 @@ use App\Http\Controllers\ContactFormController;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
 
 Route::get('/', [ContactFormController::class, 'index']);
 
 Route::post('/contacts/confirm', [ContactFormController::class,'confirm']);
 Route::post('/contacts', [ContactFormController::class, 'store']);
 Route::post('/', [ContactFormController::class, 'back']);
+Route::get('/login', [ContactFormController::class, 'login']);
+Route::post('/login', [ContactFormController::class, 'login']);
+Route::get('/register', [ContactFormController::class, 'register']);
+Route::post('/register', [ContactFormController::class, 'register']);

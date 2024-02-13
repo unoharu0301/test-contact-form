@@ -17,4 +17,5 @@ class Contact extends Model
         'contact__type',
         'contact__content'
     ];
+    
 }

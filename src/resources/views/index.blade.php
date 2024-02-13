@@ -26,6 +26,8 @@
                     {{ $message }}
                     @enderror
                 </div>
+            </div>
+        </div>
         <div class="form__group">
             <div class="form__group-title">
                 <span class="form__label--item">性別</span>
@@ -46,6 +48,7 @@
                     @enderror
                 </div>
             </div>
+        </div>
         <div class="form__group">
             <div class="form__group-title">
                 <span class="form__label--item">メールアドレス</span>
@@ -60,6 +63,7 @@
                     {{ $message }}
                     @enderror
                 </div>
+            </div>
         </div>
         <div class="form__group">
             <div class="form__group-title">
@@ -75,6 +79,7 @@
                     {{ $message }}
                     @enderror
                 </div>
+            </div>
         </div>
         <div class="form__group">
             <div class="form__group-title">
@@ -90,6 +95,7 @@
                     {{ $message }}
                     @enderror
                 </div>
+            </div>
         </div>
         <div class="form__group">
             <div class="form__group-title">
@@ -104,6 +110,7 @@
                     {{ $message }}
                     @enderror
                 </div>
+            </div>
         </div>     
         <div class="form__group">
             <div class="form__group-title">
@@ -125,6 +132,7 @@
                     {{ $message }}
                     @enderror
                 </div>
+            </div>
         </div>   
         <div class="form__group">
             <div class="form__group-title">
