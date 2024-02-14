@@ -27,11 +27,11 @@ class ContactFormController extends Controller
         return view('index');
     }
     
-    public function login(Request $request){
+    /*public function login(Request $request){
         return view('login');
-    }
+    }*/
 
-    public function register(Request $request){
+    /*public function register(Request $request){
         return view('register');
-    }
+    }*/
 }

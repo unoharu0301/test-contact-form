@@ -6,13 +6,13 @@
 
 @section('command')
 <div class="command__button">
-    <button class="header__register" href="register">register</button>
+    <a class="header__register" href="/register">register</a>
 </div>
 @endsection
 
 @section('content')
-<div class="login-page__content">
-    <div class="login-page__heading">
+<div class="login__content">
+    <div class="login__heading">
         <h2>Login</h2>
     </div>
     <form action="/login" class="form-login" method="post">
@@ -20,14 +20,17 @@
         <div class="login__group">
             <div class="login__group-title">メールアドレス</div>
             <div class="login__input">
-                <input type="text" name="email" placeholder="例:test@example.com">
+                <input type="text" name="email" class="login__input-exa" placeholder="例:test@example.com" value="{{ old('email') }}" />
             </div>
+            <div class="form__error"></div>
         </div>
+
         <div class="login__group">
             <div class="login__group-title">パスワード</div>
             <div class="login__input">
-                <input type="text" name="pass" placeholder="例:coachtech1106">
+                <input type="password" name="pass" placeholder="例:coachtech1106" />
             </div>
+            <div class="form__error"></div>
         </div>
         <div class="login__button">
             <button class="login__button-submit" type="submit">ログイン</button>

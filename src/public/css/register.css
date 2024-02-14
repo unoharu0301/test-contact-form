@@ -1,0 +1,37 @@
+.command__button {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B7969;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.register__input {
+    float: light;
+}
+
+.register__content {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.register__heading {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B7969;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.register__content {
+    background-color: #f5deb3;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 50px;
+    max-width: 1230px;
+    max-height: 1200px;
+}

@@ -5,7 +5,10 @@
 @endsection
 
 @section('command')
+@if (Auth::check())
 <form class="form" action="/logout" method="post">
     @csrf
     <button class="header__logout">ログアウト</button>
+</form>
+@endif
 @endsection

@@ -1,3 +1,4 @@
+
 .header {
     background: #fff;
 }
@@ -10,10 +11,11 @@
 }
 
 .header__logo {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
     color: #8B7969;
     text-decoration: none;
-    font-weight: bold;
-    font-family: 'Inika';
     font-size: 30px;
 }
 
